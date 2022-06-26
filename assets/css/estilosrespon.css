@@ -15,6 +15,7 @@
     padding: 5%;
     margin: 0%;
 }
+
 .bkgImg{
 background-image: url(../img/fondo-de-web.jpg);
     background-repeat: no-repeat;
@@ -33,7 +34,7 @@ background-image: url(../img/fondo-de-web.jpg);
 .header {
     display: grid;
     grid-area: header;
-    background-color: rgba(217, 217, 217, 80%);
+    background-image: linear-gradient(to bottom, rgb(250, 250, 106), rgb(19, 17, 17));
 }
 
 
@@ -46,11 +47,11 @@ background-image: url(../img/fondo-de-web.jpg);
 
 .footer {
     grid-area: footer;
-    background-color: rgba(217, 217, 217, 80%);
     font-family: 'IM Fell Great Primer', serif;
     font-size: 11px;
     display: flex;
     justify-content: center;
+    background-image: linear-gradient(to bottom, rgb(189, 189, 69), rgb(19, 17, 17));
 
 }
 
@@ -105,6 +106,7 @@ li a {
     font-family: 'IM Fell Great Primer', serif;
     text-decoration: none;
     color: black;
+    
 }
 
 ul {
@@ -138,7 +140,9 @@ ul {
 }
 
 .image1 {width: 440px;
-    max-width: 100%;}
+    max-width: 100%;
+}
+
 
 .image2 {
     width: 100%;
@@ -147,22 +151,37 @@ ul {
 
 .image3 {
     width: 440px;
-    max-width: 100%;;
+    max-width: 100%;
 }
 
 .image4 {
     height: 300px;
-    width: 430px
+    width: 430px;
+    transition: height 2s;
+}
+
+.image4:hover{
+    height: 400px;
 }
 
 .image5 {
     height: 300px;
     width: 430px;
+    transition: height 2s;
+}
+
+.image5:hover{
+    height: 400px;
 }
 
 .image6 {
     height: 300px;
     width: 430px;
+    transition: height 2s;
+}
+
+.image6:hover{
+    height: 400px;
 }
 
 .image7 {
@@ -254,6 +273,7 @@ label {
     font-family: 'IM Fell Great Primer', serif;
     font-size: large;
 }
+
 
 
 
