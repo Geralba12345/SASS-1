@@ -7,9 +7,10 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/estilosrespon.css">
     <title>CONTACTO</title>
 </head>
-<body class="container-fluid">
+<body class="bkgImg">
     <!--Barra de navegación-->
     <div>
         <header>
@@ -31,9 +32,9 @@
               </nav>
         </header>
         <!--Acá comienza el cuerpo con el formulario-->
-        <main>
+        <main class="container-fluid">
             <div class="row justify-content-around">
-                <div class="col-12">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 formContact">
                     <h1>Contacto y pedidos</h1>
                     <form>
                         <div class="mb-3">
@@ -52,18 +53,18 @@
                             <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Ingrese su mensaje" rows="3"></textarea>
                         </div>
-                        <input type="button" value="Enviar">
+                        <button type="button" class="btn btn-dark">ENVIAR</button>
                     </form>
                 </div> 
             <!--Sección con iframe-->
-                <div class="col-12">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 ubiContacto">
                     <h1>Ubicación</h1>
                     <iframe src="https://www.bing.com/images/search?q=google+maps+la+plata&form=HDRSC2&first=1&tsc=ImageHoverTitle"></iframe>
                 </div>
             </div>
         </main>
         <!--Acá va el footer-->
-        <footer>
+        <footer class="container-fluid">
             <nav>
                 <div>
                     <h6>Todos los derechos reservados</h6>
