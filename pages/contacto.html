@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,29 +12,28 @@
 </head>
 <body class="bkgImg">
     <!--Barra de navegación-->
-    <div>
-        <header>
-            <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">MENÚ</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                      <a class="nav-link" aria-current="page" href="../index.html">HOME</a>
-                      <a class="nav-link" href="../pages/quienessomos.html">NOSOTROS</a>
-                      <a class="nav-link" href="../pages/tienda.html">TIENDA</a>
-                      <a class="nav-link active" href="../pages/contacto.html">CONTACTO</a>
-                    </div>
-                  </div>
-                </div>
-              </nav>
-        </header>
-        <!--Acá comienza el cuerpo con el formulario-->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">MÚSIKA</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                  <li><a class="nav-link active" aria-current="page" href="../index.html">HOME</a></li>
+                  <li><a class="nav-link" href="./quienessomos.html">NOSOTROS</a></li>
+                  <li><a class="nav-link" href="./tienda.html">TIENDA</a></li>
+                  <li><a class="nav-link" href="./contacto.html">CONTACTO</a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <!--Acá comienza el cuerpo con el formulario-->
         <main class="container-fluid">
-            <div class="row justify-content-around">
-                <div class="col-12 col-md-6 col-lg-6 col-xl-6 formContact">
+            <section class="row justify-content-around">
+                <div class="col-12 col-md-6 formContact">
                     <h1>Contacto y pedidos</h1>
                     <form>
                         <div class="mb-3">
@@ -57,21 +56,18 @@
                     </form>
                 </div> 
             <!--Sección con iframe-->
-                <div class="col-12 col-md-6 col-lg-6 col-xl-6 ubiContacto">
+                <article class="col-12 col-md-6 ubiContacto">
                     <h1>Ubicación</h1>
                     <iframe src="https://www.bing.com/images/search?q=google+maps+la+plata&form=HDRSC2&first=1&tsc=ImageHoverTitle"></iframe>
-                </div>
-            </div>
+                </article>
+            </section>
         </main>
         <!--Acá va el footer-->
         <footer class="container-fluid">
-            <nav>
-                <div>
-                    <h6>Todos los derechos reservados</h6>
-                </div>
-            </nav>
+            <div>
+                <h5>Todos los derechos reservados</h5>
+            </div>
         </footer>
-    </div>
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

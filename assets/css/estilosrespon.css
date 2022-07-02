@@ -13,7 +13,9 @@
     main {
         background-color: rgba(217, 217, 217, 55%);
         padding: 170px;
+        font-family: 'IM Fell Great Primer', serif;
     }
+
     footer {
         display: flex;
         justify-content: center;
@@ -22,6 +24,8 @@
         border-style: solid none none none;
     border-radius: 0px;
     border-width: 1.5px;
+    font-family: 'IM Fell Great Primer', serif;
+    background-image: linear-gradient(to bottom, rgb(189, 189, 69), rgb(19, 17, 17));
     }
 
     .carrousil{
@@ -53,9 +57,17 @@
         padding: 20px;
     }
 
+
     .formContact{
         padding: 30px;
     }
+
+    nav{
+        background-image: linear-gradient(to bottom, rgb(189, 189, 69), rgb(19, 17, 17));
+    }
+
+
+    
 
     
 
